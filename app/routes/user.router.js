@@ -4,7 +4,7 @@ const { findAll,signup,signin,userDetail,findOne,update,deleteRecord} = require(
 const userRouter = express.Router();
 
 userRouter.get('/', findAll);
-//.populate('eventsAttended') 
+
 userRouter.post('/signup', signup);
 
 userRouter.post('/signin', signin);
